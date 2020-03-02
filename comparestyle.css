@@ -173,3 +173,21 @@ p {color: white;
     font-weight: lighter;
     font-size: 1rem;
     }
+
+    /*blocks sub page*/
+
+    .grid-container2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4rem 6rem 23rem auto;
+        max-width: 60rem;
+        margin: auto;
+    }
+
+    .newvid{
+        justify-self: center;
+        grid-row: 3;
+    }
+
+    
