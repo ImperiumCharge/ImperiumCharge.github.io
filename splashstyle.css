@@ -77,11 +77,12 @@ h2{
 
 
 .item4{
-    position: fixed;
+    position: relative;
     bottom: 0;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
+    grid-area: 5/1/6/2;
 }
 
 .render{
@@ -91,3 +92,68 @@ h2{
     height: 22em;
 }
 
+@media only screen and (max-width: 1067px){
+
+    .hero{
+        background-color: #5D668D;
+    }
+
+    .logo{
+        grid-area: 1/2/2/3;
+    }
+
+    .item1{
+        grid-area: 2/2/3/3;
+    }
+
+    .item2{
+        grid-area: 3/2/4/3;
+    }
+
+    .item3{
+        grid-area: 5/2/6/3;
+        margin-top: 7em;
+        justify-self: center;
+    }
+
+    .render{
+        grid-area: 4/2/5/3;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .item4{
+        justify-self: center;
+        grid-area: 6/2/7/3;
+        padding-top: 2em;
+    }
+
+    .main{
+
+        grid-template-columns: 15% 70% 15%;
+        margin-left: 0;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 650px){
+
+    .render{
+        width: 80%;
+        height: auto;
+        justify-self: center;
+        padding-top: 3em;
+    }
+
+    .main{
+        grid-template-rows: 7em 7em 10em 12em;
+    }
+
+    .item4{
+        padding: 1em;
+    }
+
+}
