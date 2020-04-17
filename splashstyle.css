@@ -135,6 +135,11 @@ h2{
 
     }
 
+    html, body{
+        background-color: #5D668D;
+    }
+
+
 
 
 }
@@ -160,5 +165,11 @@ h2{
         background-color: #5D668D;
         background-image: none;
     }
+
+    html, body{
+        background-color: #5D668D;
+    }
+
+
 
 }
