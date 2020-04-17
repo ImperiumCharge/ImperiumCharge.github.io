@@ -137,6 +137,7 @@ h2{
 
     html, body{
         background-color: #5D668D;
+        height: max-content;
     }
 
 
@@ -168,6 +169,7 @@ h2{
 
     html, body{
         background-color: #5D668D;
+        height: max-content;
     }
 
 
